@@ -1,4 +1,4 @@
-# Load testing Node.js
+# 🧪 Load testing Node.js
 
 Example of load testing a Node.js HTTP server, using [loadtest](https://github.com/alexfernandez/loadtest).
 

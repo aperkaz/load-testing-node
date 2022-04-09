@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "pm2 start server.js --name express-server --watch -f",
     "dev:cluster": "pm2 start server.js --name express-server --watch -f -i 4",
-    "dev:cluster:no-daemon": "pm2 start server.js --name express-server --watch -f -i 4 --no-daemon",
     "start": "pm2 start server.js --name express-server --no-daemon",
     "start:cluster": "pm2 start server.js --name express-server -i 4",
     "load-test": "npx loadtest -t 2 -c 10 --rps 400 http://localhost:3000/"
